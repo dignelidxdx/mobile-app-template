@@ -1,35 +1,29 @@
-# Gradle files
+# Gradle and build outputs
 .gradle/
 build/
+**/build/
 .kotlin/
 
-# Local configuration file (sdk path, etc)
+# Local Android configuration and API keys
 local.properties
+secrets.properties
 
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
+# Android Studio
+.idea/
+*.iml
 captures/
 .externalNativeBuild/
 .cxx/
-*.aab
+
+# Generated packages
 *.apk
+*.aab
 output-metadata.json
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
+# Signing material
 *.jks
 *.keystore
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
+# Logs and profiling
+*.log
 *.hprof
